@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", sans-serif;
+  --font-heading: "Alan Sans", sans-serif;
+
+  --color-primary: #ff6f61; /* hot coral */
+  --color-primary-dark: #d55a4e; /* Darker hot coral */
+
+  /* --color-accent: #c4d8e2; */
+  /* --color-accent: #00b8b8; */
+  --color-accent: #b3cee5;
+
+  --color-background: #fff5e9;
+  --color-background-alt: #f2e9dd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+body {
+  background-color: var(--color-background);
+}
